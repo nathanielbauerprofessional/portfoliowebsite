@@ -41,12 +41,12 @@ export default function About() {
                                 <li>
                                     <span className ="text-blue-600 text-lg font-semibold">Teller</span> at PNC Bank
                                     <br />
-                                    <span className="text-sm text-gray-500">02/26/2024 - Present</span>
+                                    <span className="text-sm text-gray-500">Feb 2024 - Present</span>
                                 </li>
                                 <li>
-                                    <span className ="text-blue-600 text-lg font-semibold">Stocker/Unloader</span> at Walmart
+                                    <span className ="text-blue-600 text-lg font-semibold">Co-Founder/Web Developer</span> at CDD Services LLC
                                     <br />
-                                    <span className="text-sm text-gray-500">07/1/2022 - 02/22/2024</span>
+                                    <span className="text-sm text-gray-500">Feb 2022 - Mar 2023</span>
                                 </li>
                             </ul>
                         </section>
