@@ -19,10 +19,3 @@ export default function RootLayout({
     </html>
   );
 }
-
-/*A. Modern & Professional (Great for Tech Portfolios)
-Background: White (#FFFFFF) or Light Gray (#F8F9FA)
-Primary: Navy Blue (#1E3A8A) or Indigo (#4F46E5)
-Secondary: Cool Gray (#64748B)
-Accent: Teal (#14B8A6) or Emerald Green (#10B981)
-Text: Dark Gray (#111827)*/

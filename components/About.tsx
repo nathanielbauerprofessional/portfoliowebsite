@@ -16,8 +16,8 @@ export default function About() {
                         <section>
                             <h3 className="text-xl font-semibold mb-2">Personal</h3>
                             <p>
-                                Hello! I'm <span className = "text-blue-600 text-lg font-semibold">Nathaniel Bauer</span>, a passionate computer science student based in Maryland. 
-                                When I'm not coding, you can find me trading stocks or at the gym.
+                                Hello! I&#39;m <span className = "text-blue-600 text-lg font-semibold">Nathaniel Bauer</span>, a passionate computer science student based in Maryland. 
+                                When I&#39;m not coding, you can find me trading stocks or at the gym.
                             </p>
                         </section>
                         <section className = "text-left">

@@ -1,26 +1,9 @@
 'use client'
 
-import { useState } from 'react'
 import { Github, Linkedin, Twitter, Mail } from 'lucide-react'
 import { LuContact } from "react-icons/lu";
 
 export default function Contact() {
-  const [formState, setFormState] = useState({
-    name: '',
-    email: '',
-    message: ''
-  })
-
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { name, value } = e.target
-    setFormState(prev => ({ ...prev, [name]: value }))
-  }
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    console.log('Form submitted:', formState)
-    setFormState({ name: '', email: '', message: '' })
-  }
 
   return (
     <section id = "contact" className="p-16">
@@ -118,7 +101,7 @@ export default function Contact() {
                 <span>nathanielbauerprofessional@gmail.com</span>
               </a>
             </div>
-            <p className="mt-4 text-sm text-gray-500">I'm always open to new opportunities and collaborations!</p>
+            <p className="mt-4 text-sm text-gray-500">I&#39;m always open to new opportunities and collaborations!</p>
           </div>
         </div>
       </div>
