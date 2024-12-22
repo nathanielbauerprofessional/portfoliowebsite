@@ -67,7 +67,7 @@ export default function Contact() {
             <p className="text-gray-600 mb-4">Find me on these platforms or send me an email.</p>
             <div className="space-y-6">
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/nathanielbauerprofessional"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-2 text-gray-600 hover:text-gray-900"
@@ -76,22 +76,13 @@ export default function Contact() {
                 <span>GitHub</span>
               </a>
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://www.linkedin.com/in/nathaniel-bauer/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-2 text-gray-600 hover:text-gray-900"
               >
                 <Linkedin size={20} className = "text-blue-600"/>
                 <span>LinkedIn</span>
-              </a>
-              <a
-                href="https://twitter.com/yourusername"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center space-x-2 text-gray-600 hover:text-gray-900"
-              >
-                <Twitter size={20} className = "text-blue-600"/>
-                <span>Twitter</span>
               </a>
               <a
                 href="mailto:nathanielbauerprofessional@gmail.com"

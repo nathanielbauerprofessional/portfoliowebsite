@@ -96,7 +96,7 @@ export default function Header() {
           {/* Social Icons */}
           <div className="flex items-center space-x-4">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/nathanielbauerprofessional"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:text-gray-900 transition-colors duration-200"
@@ -104,7 +104,7 @@ export default function Header() {
               <Github size={28} />
             </a>
             <a
-              href="https://twitter.com/yourusername"
+              href="https://www.linkedin.com/in/nathaniel-bauer"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:text-gray-900 transition-colors duration-200"

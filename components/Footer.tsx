@@ -17,7 +17,7 @@ export default function Footer() {
         {/* Social Media Links */}
         <div className="flex justify-center space-x-6 mb-4">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/nathanielbauerprofessional"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 hover:text-gray-900"
@@ -25,20 +25,12 @@ export default function Footer() {
             <Github className="h-6 w-6" />
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/nathaniel-bauer/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 hover:text-gray-900"
           >
             <Linkedin className="h-6 w-6" />
-          </a>
-          <a
-            href="https://twitter.com/yourusername"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 hover:text-gray-900"
-          >
-            <Twitter className="h-6 w-6" />
           </a>
         </div>
 
