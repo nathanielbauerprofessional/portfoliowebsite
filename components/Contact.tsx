@@ -1,6 +1,6 @@
 'use client'
 
-import { Github, Linkedin, Twitter, Mail } from 'lucide-react'
+import { Github, Linkedin, Mail } from 'lucide-react'
 import { LuContact } from "react-icons/lu";
 
 export default function Contact() {
