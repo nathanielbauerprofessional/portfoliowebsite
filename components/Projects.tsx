@@ -7,6 +7,12 @@ const projects = [
       description: `A <span class="text-blue-600 font-bold">personal portfolio website</span> to showcase my projects and skills.`,
       technologies: ['Next.js', 'Tailwind CSS', 'TypeScript'],
       link: 'https://nathanielbauer.com',
+    }, 
+    {
+      "title": "To Do List App",
+      "description": `A dynamic and interactive <span class="text-blue-600 font-bold">to-do list application</span> designed to help users manage their tasks efficiently. It features secure user authentication, task manipulation, and persistent storage with MongoDB.`,
+      "technologies": ["Next.js", "React", "Tailwind CSS", "MongoDB"],
+      "link": "https://nathanielbauer.com/todolist"
     }
   ];
   
