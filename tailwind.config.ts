@@ -26,8 +26,7 @@ export default {
       fontFamily: {
         "poppins": ["Poppins", "sans-serif"],
         "quicksand": ["Quicksand", "sans-serif"],
-      },
-      
+      }, 
     },
   },
   plugins: [],
