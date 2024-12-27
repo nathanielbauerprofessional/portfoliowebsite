@@ -12,7 +12,7 @@ const projects = [
       "title": "To Do List App",
       "description": `A dynamic and interactive <span class="text-blue-600 font-bold">to-do list application</span> designed to help users manage their tasks efficiently. It features secure user authentication, task manipulation, and persistent storage with MongoDB.`,
       "technologies": ["Next.js", "React", "Tailwind CSS", "MongoDB"],
-      "link": "https://nathanielbauer.com/todolist"
+      "link": "https://todolist-one-khaki.vercel.app/"
     }
   ];
   
