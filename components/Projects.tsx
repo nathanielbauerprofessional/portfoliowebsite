@@ -9,10 +9,10 @@ const projects = [
       link: 'https://nathanielbauer.com',
     }, 
     {
-      "title": "To Do List App",
-      "description": `A dynamic and interactive <span class="text-blue-600 font-bold">to-do list application</span> designed to help users manage their tasks efficiently. It features secure user authentication, task manipulation, and persistent storage with MongoDB.`,
-      "technologies": ["Next.js", "React", "Tailwind CSS", "MongoDB"],
-      "link": "https://todolist-one-khaki.vercel.app/"
+      title: "AI Recipe Generator",
+      description: `An innovative <span class="text-blue-600 font-bold">AI-powered recipe generator</span> that helps users create unique recipes based on ingredients they have at home. Features include a customizable pantry, allergen settings, and AI-generated recipe suggestions for diverse culinary needs.`,
+      technologies: ["Next.js", "React", "Tailwind CSS", "OpenAI API"],
+      link: "https://airecipegenerator.vercel.app/"
     }
   ];
   
