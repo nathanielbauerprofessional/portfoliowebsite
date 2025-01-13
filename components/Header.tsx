@@ -18,7 +18,15 @@ export default function Header() {
         <div className="flex justify-between items-center">
           {/* Logo and Site Title */}
           <div className="flex items-center space-x-2">
-            <FaRegUserCircle className="w-8 h-8 text-blue-600" />
+          <div className="w-8 h-8 rounded-full overflow-hidden">
+            <img
+                src="/ME.jpg"
+                alt="Profile Picture"
+                width={32}
+                height={32}
+                className="object-cover w-full h-full"
+            />
+            </div>
             <span className="text-2xl font-medium text-gray-800 font-poppins">
               Nathaniel Bauer Portfolio
             </span>

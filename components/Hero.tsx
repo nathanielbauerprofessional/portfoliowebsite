@@ -23,13 +23,15 @@ export default function Hero() {
                 </a>
             </div>
             <div className="md:w-1/2 flex justify-center md:justify-end">
-                <Image
-                src="/placeholder.svg"
-                alt="Nathaniel Bauer"
-                width={400}
-                height={400}
-                className="rounded-full shadow-lg"
-                />
+                <div className="w-[200px] h-[200px] md:w-[400px] md:h-[400px] rounded-full overflow-hidden shadow-lg">
+                    <Image
+                        src="/ME.jpg"
+                        alt="Nathaniel Bauer"
+                        width={400}
+                        height={400}
+                        className="object-cover w-full h-full object-[top]"
+                    />
+                </div>
             </div>
             </div>
         </div>
