@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { FaRegUserCircle } from "react-icons/fa";
 import { Github, Linkedin } from 'lucide-react'
 
 export default function Header() {
