@@ -6,13 +6,13 @@ import { LuContact } from "react-icons/lu";
 export default function Contact() {
 
   return (
-    <section id = "contact" className="p-16">
-      <div className="container mx-auto px-4">
+    <section id = "contact" className="p-12 md:p-16">
+      <div className="container mx-auto px-0">
         <LuContact className = "mx-auto my-4 text-blue-600 h-8 w-8"/>
         <h1 className="text-3xl text-center mb-4 text-gray-800 font-poppins font-semibold">Get In Touch</h1>
         <hr className="border-blue-600 w-16 mx-auto" />
         <p className = "text-xl font-quicksand my-4 text-center"> Contact me using the form below or on/using any of the listed platforms!</p>
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Contact Form */}
           <div className="border border-gray-300 rounded-lg p-12 shadow-sm bg-white font-quicksand">
             <h3 className="text-2xl font-bold mb-2 text-gray-800 font-poppins">Contact</h3>
@@ -89,7 +89,7 @@ export default function Contact() {
                 className="flex items-center space-x-2 text-gray-600 hover:text-gray-900"
               >
                 <Mail size={20} className = "text-blue-600"/>
-                <span>nathanielbauerprofessional@gmail.com</span>
+                <span className="break-all">nathanielbauerprofessional@gmail.com</span>
               </a>
             </div>
             <p className="mt-4 text-sm text-gray-500">I&#39;m always open to new opportunities and collaborations!</p>

@@ -18,8 +18,8 @@ const projects = [
   
   export default function Projects() {
     return (
-      <section id="projects" className="p-16 bg-gray-50">
-        <div className="container mx-auto px-4">
+      <section id="projects" className="p-12 m:p-16 bg-gray-50">
+        <div className="container mx-auto px-0 md:px-6">
           <PiProjectorScreenChart className="mx-auto my-4 text-blue-600 h-8 w-8" />
           <h1 className="text-3xl text-center mb-4 text-gray-800 font-poppins font-semibold">Projects</h1>
           <hr className="border-blue-600 w-16 mx-auto" />

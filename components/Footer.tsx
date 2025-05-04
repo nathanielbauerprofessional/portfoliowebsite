@@ -38,7 +38,7 @@ export default function Footer() {
         <p className="text-sm text-gray-400">
           Made by Nathaniel Bauer
         </p>
-        <p className="text-sm text-gray-400">
+        <p className="text-sm text-gray-400 mb-4">
           © {new Date().getFullYear()} All Rights Reserved
         </p>
       </div>

@@ -3,7 +3,7 @@ import { IoPersonCircleOutline } from "react-icons/io5";
 
 export default function About() {
     return ( 
-        <div id="aboutme" className="container mx-auto px-16 py-16 text-center">
+        <div id="aboutme" className="container mx-auto px-12 md:px-16 py-16 text-center">
             <IoPersonCircleOutline className = "mx-auto my-4 text-blue-600 h-8 w-8"/>
             <h1 className="text-3xl text-center mb-4 text-gray-800 font-poppins font-semibold">About Me</h1>
             <hr className="border-blue-600 w-16 mx-auto" />
@@ -12,7 +12,7 @@ export default function About() {
                 {/* Left Half: Personal, Education, Work */}
                 <div className="border border-gray-300 rounded-lg p-12 shadow-sm">
                     <h2 className="text-2xl font-bold mb-4 font-poppins text-gray-800">Personal & Professional Journey</h2>
-                    <div className="space-y-4 font-quicksand text-gray-800">
+                    <div className="px-0 md:px-6 space-y-4 font-quicksand text-gray-800">
                         <section>
                             <h3 className="text-xl font-semibold mb-2">Personal</h3>
                             <p>

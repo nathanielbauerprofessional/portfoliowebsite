@@ -26,7 +26,7 @@ export default function Header() {
                 className="object-cover w-full h-full"
             />
             </div>
-            <span className="text-2xl font-medium text-gray-800 font-poppins">
+            <span className="text-lg md:text-2xl font-medium text-gray-800 font-poppins">
               Nathaniel Bauer Portfolio
             </span>
           </div>
@@ -34,7 +34,7 @@ export default function Header() {
           {/* Mobile Menu Button */}
           <button
             onClick={toggleMenu}
-            className="block md:hidden text-gray-700 focus:outline-none"
+            className="mr-4 block md:hidden text-gray-700 focus:outline-none"
             aria-label="Toggle Menu"
           >
             <svg

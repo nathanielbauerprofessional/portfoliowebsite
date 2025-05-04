@@ -1,11 +1,11 @@
 export default function Hero() {
     return ( 
         <div id="home" className="min-h-screen bg-gray-100 flex items-center">
-            <div className="container mx-auto p-16">
+            <div className="container mx-auto p-12 md:p-16">
                 <div className="flex flex-col md:flex-row items-center justify-between">
                     <div className="md:w-1/2 mb-8 md:mb-0">
                         <h1 className="text-5xl md:text-6xl font-bold text-gray-800 mb-4 font-poppins">
-                            Hi, I&#39;m <span className="text-blue-600 font-poppins text-7xl">Nathaniel Bauer</span>
+                            Hi, I&#39;m <span className="text-blue-600 font-poppins text-6xl md:text-7xl">Nathaniel Bauer</span>
                         </h1>
                         <h2 className="text-3xl md:text-4xl font-semibold text-gray-700 mb-4 font-quicksand">
                             A Developer Exploring the World of AI, Web Development, and More.
@@ -20,14 +20,14 @@ export default function Hero() {
                             Get in Touch
                         </a>
                     </div>
-                    <div className="md:w-1/2 flex justify-center items-center">
+                    <div className="mt-6 md:mt-0 md:w-1/2 flex justify-center items-center">
                         <div className="flex w-[200px] h-[200px] md:w-[400px] md:h-[400px] rounded-full overflow-hidden shadow-lg">
                             <img
-                                src="/ME.jpg"
-                                alt="Nathaniel Bauer"
-                                width={400}
-                                height={400}
-                                className="object-cover w-full h-full object-[top]"
+                            src="/ME.jpg"
+                            alt="Nathaniel Bauer"
+                            width={400}
+                            height={400}
+                            className="object-cover w-full h-full object-[top]"
                             />
                         </div>
                     </div>
