@@ -2,18 +2,36 @@
 import { PiProjectorScreenChart } from "react-icons/pi";
 
 const projects = [
+  {
+    title: "Shark‑Tooth Detection Rover",
+    description: `
+      An <span class="text-blue-600 font-bold">autonomous Raspberry Pi rover</span> prototype that patrols beaches and 
+      <span class="text-blue-600 font-bold">detects shark teeth</span> in real time using a Roboflow-trained object detection model.
+      Features live camera capture, on‑board inference, and instant alert notifications.
+      <br/><em class="text-gray-500">Work in progress: adding a touchscreen UI for direct control and feedback.</em>
+    `,
+    technologies: [
+      "Raspberry Pi",
+      "Python",
+      "OpenCV",
+      "Roboflow",
+      "Inference"
+    ],
+    link: "/inprogress"
+    },
+    {
+      title: "AI Recipe Generator",
+      description: `An innovative <span class="text-blue-600 font-bold">AI-powered recipe generator</span> that helps users create unique recipes based on ingredients they have at home. Features include a customizable pantry, allergen settings, and AI-generated recipe suggestions for diverse culinary needs.`,
+      technologies: ["Next.js", "React", "Tailwind CSS", "OpenAI API"],
+      link: "https://airecipegenerator.vercel.app/"
+    },
     {
       title: 'Portfolio Website',
       description: `A <span class="text-blue-600 font-bold">personal portfolio website</span> to showcase my projects and skills.`,
       technologies: ['Next.js', 'Tailwind CSS', 'TypeScript'],
       link: 'https://nathanielbauer.com',
     }, 
-    {
-      title: "AI Recipe Generator",
-      description: `An innovative <span class="text-blue-600 font-bold">AI-powered recipe generator</span> that helps users create unique recipes based on ingredients they have at home. Features include a customizable pantry, allergen settings, and AI-generated recipe suggestions for diverse culinary needs.`,
-      technologies: ["Next.js", "React", "Tailwind CSS", "OpenAI API"],
-      link: "https://airecipegenerator.vercel.app/"
-    }
+  
   ];
   
   export default function Projects() {
