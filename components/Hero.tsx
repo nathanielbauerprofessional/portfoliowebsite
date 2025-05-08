@@ -23,7 +23,7 @@ export default function Hero() {
                     <div className="mt-6 md:mt-0 md:w-1/2 flex justify-center items-center">
                         <div className="flex w-[200px] h-[200px] md:w-[400px] md:h-[400px] rounded-full overflow-hidden shadow-lg">
                             <img
-                            src="/ME.jpg"
+                            src="/IMG_0195.png"
                             alt="Nathaniel Bauer"
                             width={400}
                             height={400}

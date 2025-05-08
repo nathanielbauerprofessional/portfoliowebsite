@@ -19,7 +19,7 @@ export default function Header() {
           <div className="flex items-center space-x-2">
           <div className="w-8 h-8 rounded-full overflow-hidden">
             <img
-                src="/ME.jpg"
+                src="/IMG_0195.png"
                 alt="Profile Picture"
                 width={32}
                 height={32}
